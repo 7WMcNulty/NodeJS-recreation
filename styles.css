@@ -1,1 +1,24 @@
-*
+section{
+    width:1200px;
+}
+#top{
+    height:250px;
+    background-color: #111111;
+}
+#middle{
+    height:1000px;
+    background-color: #ffffff;
+}
+#bottom{
+    height:250px;
+    background-color: #111111;
+}
+#logo{
+    height: 100px;
+    width: inherit;
+    margin: 0 auto;
+}
+a img{
+    height:100px;
+    width: auto;
+}
