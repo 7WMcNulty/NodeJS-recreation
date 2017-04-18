@@ -30,13 +30,14 @@ section{
 }
 .notbutton{
   background-color: green;
-  width: 200px;
+  width: 250px;
   margin: 0 10px;
   float: left;
 }
 #pic{
   width: 1180px;
-  border: 10px solid green;
+  border: 10px solid;
+  border-color: white;
 }
 #pic img{
   width: 1180px;
@@ -44,17 +45,12 @@ section{
 #middle p{
   margin: 0 auto;
   width: 500px;
-  margin-top: 75px;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 #middle h1{
   margin: 0 auto;
   text-align: center;
-}
-#highdiv {
-  width: 450px;
-  margin: 0 auto;
-  text-align: left;
 }
 #bottom a{
   color: gray;
@@ -65,7 +61,24 @@ section{
 #middle a{
   color: green;
 }
-#lowdiv{
+#nav4{
+  float: right;
+}
+#right{
+  float: right;
+}
+#left{
+  float: left;
+}
+#shell{
+  width: 550px;
+  height: 200px;
   margin: 0 auto;
-  width: 500px;
+}
+.notbutton p{
+  display: inline;
+  color: white;
+}
+.notbutton h3{
+  color: white;
 }
