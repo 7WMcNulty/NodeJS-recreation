@@ -4,17 +4,16 @@ section{
 }
 #top{
     height:150px;
-    background-color: #111111;
+    background-color: #333333;
 }
 #middle{
     height:550px;
-    width: inherit;
     background-color: #ffffff;
 }
 #bottom{
     height:225px;
     text-align: left;
-    background-color: #111111;
+    background-color: #333333;
     padding: 5px;
 }
 #logo{
@@ -54,10 +53,10 @@ section{
   text-align: center;
 }
 #bottom a{
-  color: gray;
+  color: #bbbbbb;
 }
 #top a{
-  color: gray;
+  color: #bbbbbb;
 }
 #middle a{
   color: green;
@@ -84,6 +83,14 @@ section{
   color: white;
 }
 a:hover{
-  border-bottom: 1px solid;
-  border-color: inherit;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+}
+#newimg{
+  width: 600px;
+}
+#newimg a img{
+  width: 600px;
 }
